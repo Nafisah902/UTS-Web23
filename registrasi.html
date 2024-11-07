@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTS Nafisah</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 class="mb-4">Form Registrasi </h2>
+  <form>
+    
+    <div class="form-group">
+      <label for="name">Nama</label>
+      <input type="text" class="form-control" id="name" placeholder="Masukkan Nama" required>
+    </div>
+
+   
+    <div class="form-group">
+      <label for="institution">Asal Lembaga</label>
+      <select class="form-control" id="institution" required>
+        <option value="" disabled selected>Pilih Asal Lembaga</option>
+        <option>PT</option>
+        <option>Pemerintahan</option>
+        <option>Kesehatan</option>
+        <option>Lembaga Masyarakat</option>
+        <option>Bisnis</option>
+        <option>Pribadi</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Alamat Lembaga</label>
+      <input type="text" class="form-control" id="address" placeholder="Masukkan Alamat Lembaga" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Masukkan Email" required>
+    </div>
+
+   
+    <div class="form-group">
+      <label for="phone">Nomor Telepon</label>
+      <input type="tel" class="form-control" id="phone" placeholder="Masukkan Nomor Telepon" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="purpose">Keperluan</label>
+      <select class="form-control" id="purpose" required>
+        <option value="" disabled selected>Pilih Keperluan</option>
+        <option>Pembuatan Web/Mobile</option>
+        <option>Konsultasi</option>
+        <option>Keamanan</option>
+        <option>Penyimpanan</option>
+        <option>Kursus</option>
+      </select>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="specialRequest">Pertanyaan atau Permintaan Khusus</label>
+      <textarea class="form-control" id="specialRequest" rows="4" placeholder="Tulis pertanyaan atau permintaan khusus"></textarea>
+    </div>
+
+ 
+    <button type="submit" class="btn btn-primary">Kirim</button>
+    <button type="reset" class="btn btn-secondary" onclick="window.location.href='login.html'">Batal</button>
+  </form>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
